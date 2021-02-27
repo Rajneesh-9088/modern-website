@@ -131,3 +131,8 @@ img {
     padding-top: 100px;
 }
 
+.stats-heading {
+    max-width: 500px;
+    margin: auto;
+}
+
