@@ -38,14 +38,20 @@
 .bg-primary, .btn-primary {
     background-color: var(--primary-color);
     color: #fff;
-}
+}   
+
 .bg-secondary, .btn-secondary {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary--color);
     color: #fff;
 }
-.bg-dark, .btn-dark {
+
+.bg-dark, .btn-dark{
     background-color: var(--dark-color);
     color: #fff;
+}    
+.bg-light, .btn-light {
+    background-color: var(--light-color);
+    color: #333;
 }
 
 .bg-primary a,
@@ -56,12 +62,25 @@
 .btn-dark a {
     color: #fff;
 }
+/* Text colors */
+.text-primary {
+    color: var(--primary-color);
+    
+}   
 
-.bg-light, .btn-light {
-    background-color: var(--light-color);
-    color: #333;
+.text-secondary {
+    color: var(--secondary--color);
+   
 }
 
+.text-dark {
+    color: var(--dark-color);
+   
+}    
+.text-light {
+    color: var(--light-color);
+    
+}
 
 /* Text sizes */
 .lead {
@@ -99,7 +118,13 @@
 }
 
 .alert-success {
-    
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.alert-error {
+    background-color: var(--error-color);
+    color: #fff;
 }
 
 .flex{
