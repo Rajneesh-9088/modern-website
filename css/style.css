@@ -186,6 +186,16 @@ img {
     transform: translateY(-15px);
 }
 
+/* Features */
+.features-head img {
+    width: 200px;
+    justify-self: flex-end;
+}
+.features-sub-head img {
+    width: 300px;
+    justify-self: flex-end;
+}
+
 /* Footer */
 .footer .social  a  {
     margin: 0 10px;
